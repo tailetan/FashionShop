@@ -1,0 +1,98 @@
+@media screen and (max-width:768px) {
+    #top-header {
+        display: none;
+    }
+    .top-header-item {
+        display: none;
+        /* text-align: center !important; */
+    }
+    .position-relative {
+        display: inline-block;
+    }
+    .position-absolute {
+        display: inline-block;
+    }
+    .dropdown-responsive {
+        display: block;
+    }
+    .dropdown-main {
+        display: none;
+    }
+    #main-nav {
+        margin-top: 1.5rem!important;
+        margin-left: 0% !important;
+        padding-bottom: 0rem!important;
+    }
+    #main-nav .nav-item {
+        border-top: 1px solid #363636!important;
+    }
+    /* SEARCH CART  */
+    .search-cart {
+        right: 17%;
+        top: 21px;
+    }
+    /* search  */
+    #search .dropdown-menu {
+        left: 0;
+        right: auto;
+    }
+    #search .dropdown-menu .btn {
+        margin-top: 10px;
+        display: block;
+    }
+    #search .dropdown-menu,
+    #search form {
+        left: auto;
+        right: 0;
+        width: 270px;
+    }
+    #main-menu button {
+        right: 0;
+        top: 16px;
+    }
+    /* SLIDER  */
+    #home-slide .carousel-indicators {
+        margin-bottom: 0;
+    }
+    /* FOOTER  */
+    #footer .footer-item {
+        border-top: 1px solid #363636;
+        margin-bottom: 0rem!important;
+        margin-top: 1rem!important;
+        padding-left: 5%;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    #main-nav {
+        margin-top: 2rem!important;
+        margin-left: 0% !important;
+        padding-bottom: 0!important;
+    }
+    .search-cart {
+        right: 83px;
+        top: 24px;
+    }
+    #main-menu button {
+        right: 0;
+        top: 16px;
+    }
+    #main-nav .nav-item {
+        border-top: 1px solid rgb(46, 46, 46)!important;
+    }
+    .dropdown-responsive .dropdown-menu,
+    .dropdown-responsive a.dropdown-item {
+        color: rgb(0, 0, 0)!important;
+        background-color: #d3d3d3!important;
+    }
+    #footer .row {
+        padding: 0!important;
+    }
+    #address {
+        border-top: none!important;
+    }
+    #social {
+        padding-bottom: 20px;
+    }
+}
